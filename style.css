@@ -1,0 +1,75 @@
+/*Header*/
+header{
+    background-color: rgba(239, 255, 239, 0.705);
+    text-align: center;
+    height: 150px;
+    padding-bottom: 20px;
+}
+.titulo{
+    text-align: center;
+    padding-top: 60px;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif; 
+
+}
+/*END Header*/
+
+/*Body*/
+.container{
+    display: grid;
+    background-color: rgba(255, 255, 255, 0.315);
+    height: 100%;
+}
+.salario{
+    padding: 30px;
+    text-align: center;
+}
+#digiteSalario, #confirmar{
+    padding: 10px;
+    text-align: center;
+
+    display: flexbox;
+    justify-content: center;
+
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size: 20px;
+}
+/*remover senhas tipo NUMBER*/
+input[type=number]::-webkit-inner-spin-button { 
+    -webkit-appearance: none;
+    
+}
+input[type=number] { 
+   -moz-appearance: textfield;
+   appearance: textfield;
+}
+/*END remover senhas tipo NUMBER*/
+
+.TextoResultado{
+    font-size: 20px;
+    margin-left: 20px;
+    margin-top: 50px;
+    font-family: Arial, Helvetica, sans-serif; 
+}
+
+.modelo{
+    margin-right: 0px;
+
+    padding: 10px 10% 20px 10%;
+
+    text-align: justify;
+    font-size: 18px;
+}
+.texto{
+    padding: 2px;
+}
+
+/*END Body*/
+/*footer*/
+footer{
+    margin-top: 50px;
+    height: 150px;
+    background-color: rgba(239, 255, 239, 0.705);
+    display: grid;
+}
+/*END footer*/

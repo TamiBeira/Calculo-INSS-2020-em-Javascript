@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cálculo INSS 2020</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsivo.css">
+    
+</head>
+<body>
+    <header>
+        <h1 class="titulo">Novo Cálculo do INSS</h1>
+    </header>
+
+<div class="container">
+    <div class="modelo">
+        <p class="texto">Em janeiro deste ano (2020) foi divulgado o novo cálculo do INSS, 
+            como muitas novidades para a massa de contribuintes e empresas. 
+            As mudanças terão por base a reforma da previdência de 2019 e o reajuste do salário mínimo.</p>
+        <p class="texto">Como principal alteração figuram as novas faixas salariais e de alíquotas, que terão formato de cálculo progressivo, 
+            já a partir de março deste ano. Faça suas simulações em nossa Calculadora do Novo Cálculo do INSS:</p>
+    </div>
+    
+    <div class="salario">
+        <input id="digiteSalario" type="number" value="">
+        <input id="confirmar" onclick="capturar()" type="submit"></input>
+    </div>
+
+    <div class="TextoResultado">
+        <p id="valor"></p>
+        <p>O valor do desconto é:</p>
+        <p id="resultado"> </p>
+    </div>
+</div>
+
+    <script src="calculo.js"></script>
+</body>
+<footer>
+    <div class="copy">&copy;</div>
+</footer>
+
+</html>
